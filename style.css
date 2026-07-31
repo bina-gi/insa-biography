@@ -118,8 +118,9 @@ h2 {
 }
 
 .award-card {
-  width: 15rem;
-  display: flex;
+  min-width: 15rem;
+  max-width: 20rem;
+  display:flex; 
   flex-direction: column;
   gap: 0.5rem;
   align-items: center;
@@ -141,8 +142,9 @@ box-shadow:
 
 .award-header {
   text-transform: uppercase;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
   letter-spacing: 1px;
+  margin-bottom: 0.5rem;
 }
 .award {
   display: flex;
@@ -235,7 +237,7 @@ box-shadow:
 
 /* ICON STYLE */
 
-.lucide-trophy-icon{
+.goal-icon{
   color: #aa8800;
   width: 4rem;
   height: 4rem;
